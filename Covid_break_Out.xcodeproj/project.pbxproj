@@ -7,25 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		062F284C9FC08E1948E16F06 /* libPods-Covid_break_Out.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 891B3D172D832D119BADC0A7 /* libPods-Covid_break_Out.a */; };
 		3007E5DC242A90C600C65F08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E5DB242A90C600C65F08 /* AppDelegate.swift */; };
 		3007E5DE242A90C600C65F08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E5DD242A90C600C65F08 /* SceneDelegate.swift */; };
-		3007E5E0242A90C600C65F08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E5DF242A90C600C65F08 /* ViewController.swift */; };
-		3007E5E3242A90C600C65F08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3007E5E1242A90C600C65F08 /* Main.storyboard */; };
 		3007E5E6242A90C600C65F08 /* Covid_break_Out.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3007E5E4242A90C600C65F08 /* Covid_break_Out.xcdatamodeld */; };
 		3007E5E8242A90C800C65F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3007E5E7242A90C800C65F08 /* Assets.xcassets */; };
 		3007E5EB242A90C800C65F08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3007E5E9242A90C800C65F08 /* LaunchScreen.storyboard */; };
+		3007E5F9242A927100C65F08 /* DashBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3007E5F8242A927100C65F08 /* DashBoard.storyboard */; };
+		3007E5FB242A929700C65F08 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E5FA242A929700C65F08 /* DashBoardViewController.swift */; };
+		3007E5FD242A92C700C65F08 /* DashboardViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E5FC242A92C700C65F08 /* DashboardViewRouter.swift */; };
+		3007E601242A930700C65F08 /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E600242A930700C65F08 /* DashboardPresenter.swift */; };
+		3007E603242A931F00C65F08 /* DashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E602242A931F00C65F08 /* DashboardInteractor.swift */; };
+		3007E606242A9E8800C65F08 /* DashBoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E605242A9E8800C65F08 /* DashBoardModel.swift */; };
+		3007E609242A9F7000C65F08 /* DashBoardBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E608242A9F7000C65F08 /* DashBoardBuilder.swift */; };
+		3007E60E242AADE500C65F08 /* NavigtaionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E60D242AADE500C65F08 /* NavigtaionBuilder.swift */; };
+		3007E610242AB55800C65F08 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3007E60F242AB55800C65F08 /* Color.xcassets */; };
+		3007E613242AB5B200C65F08 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E612242AB5B200C65F08 /* UIColor+Extensions.swift */; };
+		3007E61A242ABAAF00C65F08 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E619242ABAAF00C65F08 /* SessionManager.swift */; };
+		3007E61C242ABAC300C65F08 /* MBProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E61B242ABAC300C65F08 /* MBProgressIndicator.swift */; };
+		3007E61E242ABAD300C65F08 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E61D242ABAD300C65F08 /* Constants.swift */; };
+		3007E620242ABB7D00C65F08 /* CovidService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E61F242ABB7D00C65F08 /* CovidService.swift */; };
+		3007E62D242AC31F00C65F08 /* CALayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E622242AC31E00C65F08 /* CALayerExtension.swift */; };
+		3007E62E242AC31F00C65F08 /* BasicBarEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E623242AC31E00C65F08 /* BasicBarEntry.swift */; };
+		3007E62F242AC31F00C65F08 /* CustomSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E624242AC31E00C65F08 /* CustomSegments.swift */; };
+		3007E630242AC31F00C65F08 /* DataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E625242AC31F00C65F08 /* DataEntry.swift */; };
+		3007E631242AC31F00C65F08 /* UIBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E626242AC31F00C65F08 /* UIBezierPathExtension.swift */; };
+		3007E632242AC31F00C65F08 /* BasicBarChartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E627242AC31F00C65F08 /* BasicBarChartPresenter.swift */; };
+		3007E633242AC31F00C65F08 /* BeautifulBarChartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E628242AC31F00C65F08 /* BeautifulBarChartPresenter.swift */; };
+		3007E634242AC31F00C65F08 /* BeautifulBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E629242AC31F00C65F08 /* BeautifulBarChart.swift */; };
+		3007E635242AC31F00C65F08 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E62A242AC31F00C65F08 /* ArrayExtension.swift */; };
+		3007E636242AC31F00C65F08 /* BeautifulBarEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E62B242AC31F00C65F08 /* BeautifulBarEntry.swift */; };
+		3007E637242AC31F00C65F08 /* BasicBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E62C242AC31F00C65F08 /* BasicBarChart.swift */; };
+		3007E639242B5D7700C65F08 /* SegmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E638242B5D7700C65F08 /* SegmentTableViewCell.swift */; };
+		3007E63B242B5D8700C65F08 /* BarChartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E63A242B5D8700C65F08 /* BarChartTableViewCell.swift */; };
+		3007E63D242B669B00C65F08 /* OverAllInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E63C242B669B00C65F08 /* OverAllInfoTableViewCell.swift */; };
+		3007E63F242B6B9600C65F08 /* StateLevelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007E63E242B6B9600C65F08 /* StateLevelTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3007E5D8242A90C600C65F08 /* Covid_break_Out.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Covid_break_Out.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3007E5D8242A90C600C65F08 /* Covid_India.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Covid_India.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3007E5DB242A90C600C65F08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3007E5DD242A90C600C65F08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3007E5DF242A90C600C65F08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3007E5E2242A90C600C65F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3007E5E5242A90C600C65F08 /* Covid_break_Out.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Covid_break_Out.xcdatamodel; sourceTree = "<group>"; };
 		3007E5E7242A90C800C65F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3007E5EA242A90C800C65F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3007E5EC242A90C800C65F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3007E5F8242A927100C65F08 /* DashBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DashBoard.storyboard; sourceTree = "<group>"; };
+		3007E5FA242A929700C65F08 /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		3007E5FC242A92C700C65F08 /* DashboardViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewRouter.swift; sourceTree = "<group>"; };
+		3007E600242A930700C65F08 /* DashboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPresenter.swift; sourceTree = "<group>"; };
+		3007E602242A931F00C65F08 /* DashboardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardInteractor.swift; sourceTree = "<group>"; };
+		3007E605242A9E8800C65F08 /* DashBoardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardModel.swift; sourceTree = "<group>"; };
+		3007E608242A9F7000C65F08 /* DashBoardBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardBuilder.swift; sourceTree = "<group>"; };
+		3007E60D242AADE500C65F08 /* NavigtaionBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigtaionBuilder.swift; sourceTree = "<group>"; };
+		3007E60F242AB55800C65F08 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		3007E612242AB5B200C65F08 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		3007E616242AB98500C65F08 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3007E619242ABAAF00C65F08 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		3007E61B242ABAC300C65F08 /* MBProgressIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBProgressIndicator.swift; sourceTree = "<group>"; };
+		3007E61D242ABAD300C65F08 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3007E61F242ABB7D00C65F08 /* CovidService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidService.swift; sourceTree = "<group>"; };
+		3007E622242AC31E00C65F08 /* CALayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerExtension.swift; sourceTree = "<group>"; };
+		3007E623242AC31E00C65F08 /* BasicBarEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicBarEntry.swift; sourceTree = "<group>"; };
+		3007E624242AC31E00C65F08 /* CustomSegments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegments.swift; sourceTree = "<group>"; };
+		3007E625242AC31F00C65F08 /* DataEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataEntry.swift; sourceTree = "<group>"; };
+		3007E626242AC31F00C65F08 /* UIBezierPathExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBezierPathExtension.swift; sourceTree = "<group>"; };
+		3007E627242AC31F00C65F08 /* BasicBarChartPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicBarChartPresenter.swift; sourceTree = "<group>"; };
+		3007E628242AC31F00C65F08 /* BeautifulBarChartPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautifulBarChartPresenter.swift; sourceTree = "<group>"; };
+		3007E629242AC31F00C65F08 /* BeautifulBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautifulBarChart.swift; sourceTree = "<group>"; };
+		3007E62A242AC31F00C65F08 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		3007E62B242AC31F00C65F08 /* BeautifulBarEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautifulBarEntry.swift; sourceTree = "<group>"; };
+		3007E62C242AC31F00C65F08 /* BasicBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicBarChart.swift; sourceTree = "<group>"; };
+		3007E638242B5D7700C65F08 /* SegmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentTableViewCell.swift; sourceTree = "<group>"; };
+		3007E63A242B5D8700C65F08 /* BarChartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartTableViewCell.swift; sourceTree = "<group>"; };
+		3007E63C242B669B00C65F08 /* OverAllInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverAllInfoTableViewCell.swift; sourceTree = "<group>"; };
+		3007E63E242B6B9600C65F08 /* StateLevelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateLevelTableViewCell.swift; sourceTree = "<group>"; };
+		3B72F64978D9C921F2C13EF0 /* Pods-Covid_break_Out.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid_break_Out.debug.xcconfig"; path = "Target Support Files/Pods-Covid_break_Out/Pods-Covid_break_Out.debug.xcconfig"; sourceTree = "<group>"; };
+		891B3D172D832D119BADC0A7 /* libPods-Covid_break_Out.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Covid_break_Out.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A713151682F5F63EF8C46300 /* Pods-Covid_break_Out.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid_break_Out.release.xcconfig"; path = "Target Support Files/Pods-Covid_break_Out/Pods-Covid_break_Out.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,24 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				062F284C9FC08E1948E16F06 /* libPods-Covid_break_Out.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00C27043A715123085736FD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B72F64978D9C921F2C13EF0 /* Pods-Covid_break_Out.debug.xcconfig */,
+				A713151682F5F63EF8C46300 /* Pods-Covid_break_Out.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3007E5CF242A90C600C65F08 = {
 			isa = PBXGroup;
 			children = (
 				3007E5DA242A90C600C65F08 /* Covid_break_Out */,
 				3007E5D9242A90C600C65F08 /* Products */,
+				00C27043A715123085736FD1 /* Pods */,
+				3DEDF9170EC1374CCFAF6AD4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		3007E5D9242A90C600C65F08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3007E5D8242A90C600C65F08 /* Covid_break_Out.app */,
+				3007E5D8242A90C600C65F08 /* Covid_India.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,16 +129,140 @@
 		3007E5DA242A90C600C65F08 /* Covid_break_Out */ = {
 			isa = PBXGroup;
 			children = (
+				3007E621242AC30E00C65F08 /* Bar Chart */,
+				3007E618242ABA9800C65F08 /* SessionManager */,
+				3007E611242AB59D00C65F08 /* Extensions */,
+				3007E60C242AADCE00C65F08 /* NavigationBuilder */,
+				3007E5F2242A91DE00C65F08 /* Dashboard */,
 				3007E5DB242A90C600C65F08 /* AppDelegate.swift */,
 				3007E5DD242A90C600C65F08 /* SceneDelegate.swift */,
-				3007E5DF242A90C600C65F08 /* ViewController.swift */,
-				3007E5E1242A90C600C65F08 /* Main.storyboard */,
 				3007E5E7242A90C800C65F08 /* Assets.xcassets */,
 				3007E5E9242A90C800C65F08 /* LaunchScreen.storyboard */,
 				3007E5EC242A90C800C65F08 /* Info.plist */,
 				3007E5E4242A90C600C65F08 /* Covid_break_Out.xcdatamodeld */,
+				3007E60F242AB55800C65F08 /* Color.xcassets */,
 			);
 			path = Covid_break_Out;
+			sourceTree = "<group>";
+		};
+		3007E5F2242A91DE00C65F08 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				3007E607242A9F5E00C65F08 /* Builder */,
+				3007E604242A9E6700C65F08 /* Entities */,
+				3007E5F7242A922300C65F08 /* Presenter */,
+				3007E5F6242A921A00C65F08 /* Interactor */,
+				3007E5F4242A920900C65F08 /* Router */,
+				3007E5F3242A920000C65F08 /* View */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		3007E5F3242A920000C65F08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3007E5F8242A927100C65F08 /* DashBoard.storyboard */,
+				3007E5FA242A929700C65F08 /* DashBoardViewController.swift */,
+				3007E638242B5D7700C65F08 /* SegmentTableViewCell.swift */,
+				3007E63A242B5D8700C65F08 /* BarChartTableViewCell.swift */,
+				3007E63C242B669B00C65F08 /* OverAllInfoTableViewCell.swift */,
+				3007E63E242B6B9600C65F08 /* StateLevelTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3007E5F4242A920900C65F08 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3007E5FC242A92C700C65F08 /* DashboardViewRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		3007E5F6242A921A00C65F08 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3007E602242A931F00C65F08 /* DashboardInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		3007E5F7242A922300C65F08 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3007E600242A930700C65F08 /* DashboardPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3007E604242A9E6700C65F08 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				3007E605242A9E8800C65F08 /* DashBoardModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		3007E607242A9F5E00C65F08 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				3007E608242A9F7000C65F08 /* DashBoardBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		3007E60C242AADCE00C65F08 /* NavigationBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				3007E60D242AADE500C65F08 /* NavigtaionBuilder.swift */,
+			);
+			path = NavigationBuilder;
+			sourceTree = "<group>";
+		};
+		3007E611242AB59D00C65F08 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3007E612242AB5B200C65F08 /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3007E618242ABA9800C65F08 /* SessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				3007E61D242ABAD300C65F08 /* Constants.swift */,
+				3007E61B242ABAC300C65F08 /* MBProgressIndicator.swift */,
+				3007E619242ABAAF00C65F08 /* SessionManager.swift */,
+				3007E61F242ABB7D00C65F08 /* CovidService.swift */,
+			);
+			path = SessionManager;
+			sourceTree = "<group>";
+		};
+		3007E621242AC30E00C65F08 /* Bar Chart */ = {
+			isa = PBXGroup;
+			children = (
+				3007E62A242AC31F00C65F08 /* ArrayExtension.swift */,
+				3007E62C242AC31F00C65F08 /* BasicBarChart.swift */,
+				3007E627242AC31F00C65F08 /* BasicBarChartPresenter.swift */,
+				3007E623242AC31E00C65F08 /* BasicBarEntry.swift */,
+				3007E629242AC31F00C65F08 /* BeautifulBarChart.swift */,
+				3007E628242AC31F00C65F08 /* BeautifulBarChartPresenter.swift */,
+				3007E62B242AC31F00C65F08 /* BeautifulBarEntry.swift */,
+				3007E622242AC31E00C65F08 /* CALayerExtension.swift */,
+				3007E624242AC31E00C65F08 /* CustomSegments.swift */,
+				3007E625242AC31F00C65F08 /* DataEntry.swift */,
+				3007E626242AC31F00C65F08 /* UIBezierPathExtension.swift */,
+			);
+			path = "Bar Chart";
+			sourceTree = "<group>";
+		};
+		3DEDF9170EC1374CCFAF6AD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3007E616242AB98500C65F08 /* CoreLocation.framework */,
+				891B3D172D832D119BADC0A7 /* libPods-Covid_break_Out.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +272,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3007E5EF242A90C800C65F08 /* Build configuration list for PBXNativeTarget "Covid_break_Out" */;
 			buildPhases = (
+				F85EC0D28F2ECAD8CA272303 /* [CP] Check Pods Manifest.lock */,
 				3007E5D4242A90C600C65F08 /* Sources */,
 				3007E5D5242A90C600C65F08 /* Frameworks */,
 				3007E5D6242A90C600C65F08 /* Resources */,
@@ -87,7 +283,7 @@
 			);
 			name = Covid_break_Out;
 			productName = Covid_break_Out;
-			productReference = 3007E5D8242A90C600C65F08 /* Covid_break_Out.app */;
+			productReference = 3007E5D8242A90C600C65F08 /* Covid_India.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,36 +325,80 @@
 			buildActionMask = 2147483647;
 			files = (
 				3007E5EB242A90C800C65F08 /* LaunchScreen.storyboard in Resources */,
+				3007E610242AB55800C65F08 /* Color.xcassets in Resources */,
 				3007E5E8242A90C800C65F08 /* Assets.xcassets in Resources */,
-				3007E5E3242A90C600C65F08 /* Main.storyboard in Resources */,
+				3007E5F9242A927100C65F08 /* DashBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F85EC0D28F2ECAD8CA272303 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Covid_break_Out-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3007E5D4242A90C600C65F08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3007E63F242B6B9600C65F08 /* StateLevelTableViewCell.swift in Sources */,
 				3007E5E6242A90C600C65F08 /* Covid_break_Out.xcdatamodeld in Sources */,
-				3007E5E0242A90C600C65F08 /* ViewController.swift in Sources */,
+				3007E5FD242A92C700C65F08 /* DashboardViewRouter.swift in Sources */,
+				3007E630242AC31F00C65F08 /* DataEntry.swift in Sources */,
+				3007E635242AC31F00C65F08 /* ArrayExtension.swift in Sources */,
+				3007E61C242ABAC300C65F08 /* MBProgressIndicator.swift in Sources */,
+				3007E61A242ABAAF00C65F08 /* SessionManager.swift in Sources */,
+				3007E632242AC31F00C65F08 /* BasicBarChartPresenter.swift in Sources */,
+				3007E639242B5D7700C65F08 /* SegmentTableViewCell.swift in Sources */,
+				3007E601242A930700C65F08 /* DashboardPresenter.swift in Sources */,
+				3007E60E242AADE500C65F08 /* NavigtaionBuilder.swift in Sources */,
+				3007E636242AC31F00C65F08 /* BeautifulBarEntry.swift in Sources */,
+				3007E633242AC31F00C65F08 /* BeautifulBarChartPresenter.swift in Sources */,
+				3007E631242AC31F00C65F08 /* UIBezierPathExtension.swift in Sources */,
+				3007E606242A9E8800C65F08 /* DashBoardModel.swift in Sources */,
+				3007E603242A931F00C65F08 /* DashboardInteractor.swift in Sources */,
+				3007E5FB242A929700C65F08 /* DashBoardViewController.swift in Sources */,
+				3007E63B242B5D8700C65F08 /* BarChartTableViewCell.swift in Sources */,
+				3007E620242ABB7D00C65F08 /* CovidService.swift in Sources */,
+				3007E62F242AC31F00C65F08 /* CustomSegments.swift in Sources */,
 				3007E5DC242A90C600C65F08 /* AppDelegate.swift in Sources */,
+				3007E613242AB5B200C65F08 /* UIColor+Extensions.swift in Sources */,
+				3007E637242AC31F00C65F08 /* BasicBarChart.swift in Sources */,
+				3007E61E242ABAD300C65F08 /* Constants.swift in Sources */,
+				3007E634242AC31F00C65F08 /* BeautifulBarChart.swift in Sources */,
+				3007E63D242B669B00C65F08 /* OverAllInfoTableViewCell.swift in Sources */,
 				3007E5DE242A90C600C65F08 /* SceneDelegate.swift in Sources */,
+				3007E62E242AC31F00C65F08 /* BasicBarEntry.swift in Sources */,
+				3007E609242A9F7000C65F08 /* DashBoardBuilder.swift in Sources */,
+				3007E62D242AC31F00C65F08 /* CALayerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3007E5E1242A90C600C65F08 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3007E5E2242A90C600C65F08 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3007E5E9242A90C800C65F08 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,6 +526,7 @@
 		};
 		3007E5F0242A90C800C65F08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B72F64978D9C921F2C13EF0 /* Pods-Covid_break_Out.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,7 +536,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gojek.Covid-break-Out";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Covid_India;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,6 +544,7 @@
 		};
 		3007E5F1242A90C800C65F08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A713151682F5F63EF8C46300 /* Pods-Covid_break_Out.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +554,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gojek.Covid-break-Out";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Covid_India;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
